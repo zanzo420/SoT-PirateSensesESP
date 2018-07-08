@@ -1,0 +1,167 @@
+    vector<string> valid_ActorNames{
+    	"BP_PlayerPirate_C",
+    	"BP_Mermaid_C",
+    	"BP_Shark_C",
+     
+     
+    	//Skeletons
+    	"BP_SkeletonUnarmedCombatPawn_C",
+    	"BP_SkeletonAllWeaponsPawn_C",
+    	"BP_SkeletonCutlassPawn_C",
+    	"BP_SkeletonPistolPawn_C",
+    	"BP_SkeletonBlunderbussPawn_C",
+    	"BP_SkeletonPawnBase_C",
+     
+    	"BP_Rank1_MetalForm_SkeletonUnarmed_C",
+    	"BP_Rank1_PlantForm_SkeletonUnarmed_C",
+    	"BP_Rank1_ShadowForm_SkeletonUnarmed_C",
+    	"BP_Rank1_SkeletonUnarmedCombatPawn_C",
+    	"BP_Rank1_SkeletonPistolPawn_C",
+    	"BP_Rank1_SkeletonBlunderbussPawn_C",
+    	"BP_Rank1_SkeletonCutlassPawn_C",
+     
+    	"BP_Rank2_SkeletonUnarmedCombatPawn_C",
+    	"BP_Rank2_SkeletonPistolPawn_C",
+    	"BP_Rank2_SkeletonBlunderbussPawnLevel_C",
+    	"BP_Rank2_SkeletonCutlassPawn_C",
+     
+    	"BP_Rank3_SkeletonUnarmedCombatPawn_C",
+    	"BP_Rank3_SkeletonPistolPawnLevel_C",
+    	"BP_Rank3_SkeletonBlunderbussPawnLevel_C",
+    	"BP_Rank3_SkeletonCutlassPawn_C",
+     
+    	//Merchant
+    	"BP_MerchantCrate_GunpowderBarrel_C",			// Pólvora
+    	"BP_MerchantCrate_GunpowderBarrelProxy_C",		// Pólvora
+     
+    	"BP_MerchantCrate_Commodity_TeaCrate_Proxy_C",	// Caixa de Chá
+    	"BP_MerchantCrate_Commodity_SugarCrate_Proxy_C",// Caixa de Açúcar
+    	"BP_MerchantCrate_Commodity_SilkCrate_Proxy_C",	// Caida de Sedas
+    	"BP_MerchantCrate_Commodity_SpiceCrate_Proxy_C",// Caixa de Especiarias
+     
+     
+    	"BP_MerchantCrate_ChickenCrateProxy_C",			// Gaiola de frango
+    	"BP_MerchantCrate_PigCrateProxy_C",				// Gaiola de Porco
+    	"BP_MerchantCrate_SnakeBasketProxy_C",			// Cesta de Cobra
+     
+    	"BP_MerchantCrate_BananaCrateProxy_C",			// Caixa de Bananas
+    	"BP_MerchantCrate_WoodCrateProxy_C",			// Caixa de Madeiras
+    	"BP_MerchantCrate_CannonballCrateProxy",		// Caixa de Balas de Canhão
+     
+    	//-------------------------------- Acumuladores de Ouro --------------------------------
+    	"BP_ShipwreckTreasureChest_Wieldable_Common_C",	// ??
+    	"BP_TreasureChest_Proxy_Common_C",				// Baú ??
+    	"BP_ShipwreckTreasureChest_Proxy_Common_C",
+     
+    	"BP_TreasureChest_Wieldable_Rare_C",			// Baú do Navegador (Segurando)
+    	"BP_TreasureChest_Proxy_Rare_C",				// Baú do Navegador
+    	"BP_ShipwreckTreasureChest_Proxy_Rare",
+    	
+    	"BP_TreasureChest_Wieldable_Legendary_C",		// Báu Salteador (Segurando)
+    	"BP_TreasureChest_Proxy_Legendary_C",			// Báu Salteador
+    	
+    	"BP_TreasureChest_Wieldable_Mythical_C",		// Baú do Capitão (Segurando)
+    	"BP_TreasureChest_Proxy_Mythical_C",			// Baú do Capitão
+    	"BP_ShipwreckTreasureChest_Proxy_Mythical",
+     
+    	"BP_TreasureChest_Wieldable_Drunken_C",			// Baú do Grogs (Segurando)
+    	"BP_TreasureChest_Proxy_Drunken_C",				// Baú do Grogs
+    	"BP_TreasureChest_Wieldable_Weeping_C"			// Baú Chorando (Segurando)
+    	"BP_TreasureChest_Proxy_Weeping_C",				// Baú Chorando
+     
+    	"BP_TreasureChest_Wieldable_Fort_C",			// Baú do Fort (Segurando)
+    	"BP_TreasureChest_Proxy_Fort_C",				// Baú do Fort
+     
+    	"BP_TreasureChest_PirateLegend",				// Baú Legend
+    	"BP_TreasureChest_Wieldable_PirateLegend_C",	// Baú Legend
+    	"BP_TreasureChest_Proxy_PirateLegend_C",		// Baú Legend
+    	"BP_TreasureChest_Legendary",
+    	"BP_TreasureChest_Legendary_C",
+    	"BP_TreasureChest_Proxy_Legendary",
+    	"BP_TreasureChest_Proxy_Legendary_C",
+    	"BP_ShipwreckTreasureChest_Proxy_Legendary_C",
+     
+     
+     
+    	"BP_Treasure_Artifact_Proxy_box_01_a_C",
+    	"BP_Treasure_Artifact_Proxy_box_02_a_C",
+    	"BP_Treasure_Artifact_Proxy_box_03_a_C",
+    	"BP_Treasure_Artifact_Proxy_goblet_01_a_C",
+    	"BP_Treasure_Artifact_Proxy_goblet_02_a_C",
+    	"BP_Treasure_Artifact_Proxy_goblet_03_a_C",
+    	"BP_Treasure_Artifact_Proxy_impressive_01_a_C",
+    	"BP_Treasure_Artifact_Proxy_impressive_02_a_C",
+    	"BP_Treasure_Artifact_Proxy_impressive_03_a_C",
+    	"BP_Treasure_Artifact_Proxy_vase_01_a_C",
+    	"BP_Treasure_Artifact_Proxy_vase_02_a_C",
+    	"BP_Treasure_Artifact_Proxy_vase_03_a_C",
+     
+    	"BP_TreasureArtifact_Wieldable_box_01_a_C",
+    	"BP_TreasureArtifact_Wieldable_box_02_a_C",
+    	"BP_TreasureArtifact_Wieldable_box_03_a_C",
+    	"BP_TreasureArtifact_Wieldable_goblet_01_a_C",
+    	"BP_TreasureArtifact_Wieldable_goblet_02_a_C",
+    	"BP_TreasureArtifact_Wieldable_goblet_03_a_C",
+    	"BP_TreasureArtifact_Wieldable_impressive_01_a_C",
+    	"BP_TreasureArtifact_Wieldable_impressive_02_a_C",
+    	"BP_TreasureArtifact_Wieldable_impressive_03_a_C",
+    	"BP_TreasureArtifact_Wieldable_vase_01_a_C",
+    	"BP_TreasureArtifact_Wieldable_vase_02_a_C",
+    	"BP_TreasureArtifact_Wieldable_vase_03_a_C",
+    	"BP_TreasureArtifact_Wieldable_Base_C",
+     
+     
+     
+     
+     
+    	//Livros
+    	"BP_LoreBook_02_Bosun_C",
+    	"BP_LoreBook_03_Pirate_Lord_C",
+    	"BP_LoreBook_04_LuckySailor_C",
+    	"BP_LoreBook_05_Becalmed_C",
+    	"BP_LoreBook_06_SailTogether_C",
+    	"BP_LoreBook_07_Rubbish_C",
+    	"BP_LoreBook_08_MysteriousJournal01_C",
+    	"BP_LoreBook_09_MysteriousJournal02_C",
+    	"BP_LoreBook_10_MysteriousJournal03_C",
+    	"BP_LoreBook_11_MysteriousJournal04_C",
+    	"BP_LoreBook_12_MysteriousJournal05_C",
+    	"BP_LoreBook_13_MysteriousJournal06_C",
+    	"BP_LoreBook_14_MysteriousJournal07_C",
+    	"BP_LoreBook_15_MysteriousJournal08_C",
+    	"BP_LoreBook_16_MysteriousJournal09_C",
+    	"BP_LoreBook_17_MysteriousJournal10_C",
+    	"BP_LoreBook_18_MysteriousJournal11_C",
+    	"BP_LoreBook_19_MysteriousJournal12_C",
+    	"BP_LoreBook_20_MysteriousJournal13_C",
+    	"BP_LoreBook_21_MysteriousJournal14_C",
+    	"BP_LoreBook_22_MysteriousJournal15_C",
+    	"BP_LoreBook_23_MysteriousJournal16_C",
+    	"BP_LoreBook_24_MysteriousJournal17_C",
+     
+     
+     
+    	//Bounty Skulls
+    	"BP_BountyRewardSkull_Proxy_C",					// Caveira
+    	"BP_BountyRewardSkull_Proxy_Common_C",			// Caveira
+     
+    	"BP_BountyRewardSkull_Rare_C",					// Caveira Desgraçada (Segurando)
+    	"BP_BountyRewardSkull_Proxy_Rare_C",			// Caveira Desgraçada
+     
+    	"BP_BountyRewardSkull_Legendary_C",				// Caveira
+    	"BP_BountyRewardSkull_Proxy_Legendary_C",		// Caveira
+     
+    	"BP_BountyRewardSkull_Mythical_C",				// Caveira
+    	"BP_BountyRewardSkull_Proxy_Mythical_C",		// Caveira
+     
+    	"BP_BountyRewardSkull_Proxy_Fort_C",			// Caveira do Fort
+    	"BP_BountyRewardSkull_Proxy_Legendary",
+     
+    	//Other Items
+    	"BP_StrongholdKey_C",							// Chave Fo Fort
+    	"BP_StrongholdKey_Proxy_C",						// Chave Fo Fort
+    	"BP_MessageInABottleProxy_C",					// Garrafa
+     
+    	"BP_SkellyFort_SkullCloud_C"					// Nuvem Caveria do Fort
+     
+    };
